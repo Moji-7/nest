@@ -3,7 +3,6 @@
  * This is only a minimal backend to get started.
  */
 
-
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import {  NestFactory } from '@nestjs/core';
 
@@ -44,5 +43,4 @@ async function bootstrap() {
     `🚀 Application is running on: http://localhost:${port}/${globalPrefix}`
   );
 }
-
 bootstrap();
